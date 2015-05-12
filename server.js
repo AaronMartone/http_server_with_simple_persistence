@@ -58,7 +58,7 @@ app.route('/elements')
             fileNumber = fileNumber.length + 1;
             fs.writeFile(datastore + '/' + fileNumber + '.json', dataToWrite, { encoding: 'utf8' }, function(err) {
                 if (err) { next(err); }
-                renderJSON({status: 'success', operation: 'POST', _id: fileNumber});
+                renderJSON(res, {status: 'success', operation: 'POST', _id: fileNumber});
             });    
         });
     });
