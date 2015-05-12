@@ -1,0 +1,20 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node modules folder
+node_modules/*
+
+# MongoDB data folder
+data/*
+
+# Thumbnails
+._*
+
+# Optional volume root files
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns

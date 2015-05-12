@@ -1,0 +1,31 @@
+{
+  "name": "http_server_with_simple_persistence",
+  "version": "0.1.0",
+  "description": "HTTP Server with Simple Persistence README.md goes here",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/server-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaronMartone/http_server_with_simple_persistence.git"
+  },
+  "author": "Aaron R. Martone <am@aaronmartone.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AaronMartone/http_server_with_simple_persistence/issues"
+  },
+  "homepage": "https://github.com/AaronMartone/http_server_with_simple_persistence#readme",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "chai-http": "^1.0.0",
+    "mocha": "^2.2.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "express": "^4.12.3"
+  }
+}
