@@ -68,7 +68,7 @@ describe('Single Resource REST API', function() {
                 expect(res.body.status).to.eql('success');
                 expect(res.body.operation).to.eql('PUT');
                 done();
-            })
+            });
     });
 
     it('should allow deletes on DELETE /elements/<id>', function(done) {
